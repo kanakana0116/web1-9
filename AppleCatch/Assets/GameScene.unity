@@ -533,8 +533,8 @@ RectTransform:
   m_Father: {fileID: 488321075}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -65, y: -70}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -674,8 +674,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb804b206bb25d458a4f426e5902ca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appleSE: {fileID: 0}
-  bombSE: {fileID: 0}
+  appleSE: {fileID: 8300000, guid: 1bde08be46a519749a46860d56a064c1, type: 3}
+  bombSE: {fileID: 8300000, guid: 743acc66791a29b4cbfffa408bcd8541, type: 3}
 --- !u!82 &1356283792
 AudioSource:
   m_ObjectHideFlags: 0
@@ -763,7 +763,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1356283790}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.1, z: 0.5}
@@ -914,8 +914,8 @@ RectTransform:
   m_Father: {fileID: 488321075}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -60, y: -25}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
